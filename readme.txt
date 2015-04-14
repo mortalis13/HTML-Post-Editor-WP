@@ -91,6 +91,8 @@ If you need to change this F11 key to other write me a request and I'll add an o
 6. [Special Emmet package](https://github.com/mortalis13/emmet-for-ace-css) for the Ace Editor.
 7. [JS Beautifier](https://github.com/beautify-web/js-beautify/tree/master/js).
 
+This plugin GitHub repository: https://github.com/mortalis13/html-post-editor.
+
 
 == Installation ==
 
