@@ -1,10 +1,10 @@
 # HTML Post Editor
-Contributors: mortalis
-Tags: admin, post-editor, ace-editor, html, raw, source, syntax-highlight, shortcuts, emmet, full-screen, resizable
-Requires at least: 4.1
-Tested up to: 4.1
-Stable tag: 4.1
-License: GPLv2 or later
+Contributors: mortalis<br>
+Tags: admin, post-editor, ace-editor, html, raw, source, syntax-highlight, shortcuts, emmet, full-screen, resizable<br>
+Requires at least: 4.1<br>
+Tested up to: 4.1<br>
+Stable tag: 4.1<br>
+License: GPLv2 or later<br>
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Adds HTML tab to the post editor which shows the raw source of the page and is highlighted with the Ace Editor
@@ -48,22 +48,27 @@ The plugin is based on the [ACE Editor for WP](https://wordpress.org/plugins/ace
 1. **Multicursor** lets you edit multiple regions at the same time. You can use **default shortcuts** to add remove regions or select multiple blocks with mouse holding **Ctrl key**.
 2. **Default keyboard shortcuts** for the *Ace editor* can be found on the [Ace GitHub Wiki](https://github.com/ajaxorg/ace/wiki/Default-Keyboard-Shortcuts) page or on the [Ace Editor Shortcuts](http://pcadvice.co.nf/blog/ace-editor-shortcuts/) page I created for the Wordpress version of this editor. Here I selected some shortcuts and *organized* them by *categories*.
 3. **The Search box** gives additional functions:
+
   - Search All instances
   - Use of Regular expressions
   - Whole word search
   - Replace content
   - Replace All  
+    
 It shows with **Ctrl+F** and **Ctrl+H** combinations.
 4. The editor area can be **resized** using the *bottom (southern) handle* but it doesn't remember its size after switching.
 5. **Emmet snippets** are used to improve code typing. The *documentation*: 
+
   - [Basic Usage](http://docs.emmet.io/abbreviations/)
   - [Full list](http://docs.emmet.io/cheat-sheet) of HTML and CSS snippets
+
 6. **Full screen mode** is not a default Ace Editor feature. I've taken the idea from a **demo** page in the [Ace build package](https://github.com/ajaxorg/ace-builds/tree/master/demo). The page is named **scrollable-page.html**.  
 It adds a new custom shortcut to the editor which toggles the **full/normal** mode. So I set this function to the **F11** key.  
 The function extends the editor container to the Wordpess admin boundaries but doesn't hide **top and left menus**. It also works if the *window size* is changed or the left menu is *collapsed*. But to fill the available space in these cases the **F11** key must be pressed *two times* when the editor is in the *full screen mode*.  
 If you need to change this F11 key to other write me a request and I'll add an option to the options page.
 7. **The Word Wrap** checkbox appears when the **HTML tab** is switched to. By default the editor has word wrapping *enabled*. You can toggle this option with the checkbox. But it only remembers its state in the *current editor session*.
 8. I've also added some **custom shortcuts**:
+
   - **Ctrl+Enter** adds a new line below the current one regardless of what is the current position the cursor on the current line
   - **Ctrl+R** switches to the *Visual tab*
 
